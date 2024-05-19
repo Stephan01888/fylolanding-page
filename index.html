@@ -1,0 +1,450 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title> -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      margin: 0%;
+      padding: 0%;
+    }
+    .header{
+      display: flex;
+      justify-content:space-between;
+    }
+    .hero{
+      display: flex;
+      justify-content:space-between;
+    } 
+    .first_hero_box{
+      width: 50%;
+    }
+    .second_hero_boc{
+      width: 50% ;
+    }
+    .parent{
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    .logo{
+      width: 100px;
+    }
+    .nav, .hero{
+      width: 90%;
+      max-width: 1440px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="parent">
+    <section class="nav">
+      <header class="header">
+        <img src="./images/logo.svg" class="logo" alt="">
+        <header class="header_2">
+          <button>
+            Features
+          </button>
+          <button>
+            Team
+          </button>
+          <button>
+            Sign In
+          </button>
+        </header>
+
+      </header>
+    </section>
+    <section class="hero">
+      <div class="first_hero_box">
+        <h3>  All your files in one secure location, accessible anywhere.</h3>
+        <p>Fylo stores your most important files in one secure location.Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+          <header>
+            <button>
+              Get Started
+          </button></header>
+        
+      </div>
+      </div>
+      <div class="second_hero_box">
+        <img src="./images/illustration-1.svg" alt="" style="width: 100%;">
+    </section>
+  </main>
+
+ -->
+
+
+<!-- 
+  
+  
+  
+
+
+   
+   -->
+
+
+  <!-- Stay productive, wherever you are
+
+  Never let location be an issue when accessing your files. Fylo has you 
+  covered for all of your file storage needs.
+
+  Securely share files and folders with friends, family and colleagues for 
+  live collaboration. No email attachments required!
+
+  See how Fylo works
+
+  Fylo has improved our team productivity by an order of magnitude. Since 
+  making the switch our team has become a well-oiled collaboration machine.
+
+  Kyle Burton
+  Founder & CEO, Huddle
+
+  Get early access today
+
+  It only takes a minute to sign up and our free starter tier is extremely generous. 
+  If you have any questions, our support team would be happy to help you.
+
+  Get Started For Free
+
+  Phone: +1-543-123-4567
+  example@fylo.com
+
+  About Us
+  Jobs
+  Press
+  Blog
+
+  Contact Us
+  Terms
+  Privacy
+  -->
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo</title>
+    <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a3d98;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-content form {
+    display: flex;
+}
+
+.hero-content form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.hero-content form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3a3d98;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #f8f8f8;
+}
+
+.features-content {
+    max-width: 50%;
+}
+
+.features-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.features-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.features-content a {
+    display: inline-block;
+    font-size: 18px;
+    color: #3a3d98;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    border-left: 4px solid #3a3d98;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.features-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #3a3d98;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta form {
+    display: flex;
+    justify-content: center;
+}
+
+.cta form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.cta form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3a3d98;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3a3d98;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+}
+.header_1{
+      display: flex;
+      justify-content:space-between;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <header class="header_1 ">
+            <img src="./images/logo.svg" class="logo" alt="">
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+            <form>
+                <input type="email" placeholder="Enter your email...">
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+        <div class="hero-image">
+          <img src="./images/illustration-1.svg" alt="" style="width: 100%;">
+        </div>
+    </section>
+    <section class="features">
+        <div class="features-content">
+            <h2>Stay productive, wherever you are</h2>
+            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+            <a href="#">See how Fylo works</a>
+            <div class="testimonial">
+                <blockquote>
+                    "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+                </blockquote>
+                <cite>- Kyle Burton, Founder & CEO, Huddle</cite>
+            </div>
+        </div>
+        <div class="features-image">
+            <img src="./images/" alt="">
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        <form>
+            <input type="email" placeholder="email@example.com">
+            <button type="submit">Get Started For Free</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><img src="./images/logo.svg" class="logo" alt="">
+            </div>
+            <div class="footer-contact">
+                <p>Phone: +1-543-123-4567</p>
+                <p>Email: example@fylo.com</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="icon-facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="icon-twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="icon-instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
